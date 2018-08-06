@@ -1,0 +1,42 @@
+https://stackoverflow.com/questions/49149021/cannot-parse-xml-file-in-jenkins-pipeline
+
+<fol:oorest xmlns:fol="http://www.api.rest.jam.oodrive.com/foldercontentresponse"
+	xmlns:item="http://www.api.rest.jam.oodrive.com/item"
+	xmlns:fol1="http://www.api.rest.jam.oodrive.com/folder"
+	xmlns:file="http://www.api.rest.jam.oodrive.com/file">
+	<fol:foldercontentresponse>
+		<fol:folder>
+			<item:id>291431</item:id>
+			<item:name>dfsdf</item:name>
+			<item:parentid>263630</item:parentid>
+			<item:type>FOLDER</item:type>
+			<fol1:path>/Fichiers/Folder1/doc</fol1:path>
+			<fol1:creationdate>2012-02-02T14:02:06.875+01:00</fol1:creationdate>
+			<fol1:lastmodificationdate>2012-02-16T17:48:03.390+01:00</fol1:lastmodificationdate>
+			<fol1:isDeletable>true</fol1:isDeletable>
+			<fol1:hasSubfolders>true</fol1:hasSubfolders>
+		</fol:folder>
+		<fol:file>
+			<item:id>314592</item:id>
+			<item:name>Nénuphars5656.jpg</item:name>
+			<item:parentid>263630</item:parentid>
+			<file:path>/Fichiers/Folder1/doc</file:path>
+			<file:size>7462</file:size>
+			<file:creationdate>2012-03-26T14:23:47.672+02:00</file:creationdate>
+			<file:lastmodificationdate>2012-03-26T14:23:47.735+02:00</file:lastmodificationdate>
+			<file:versions>
+				<file:file>
+					<item:id>354746</item:id>
+				</file:file>
+				<file:file>
+					<item:id>314554</item:id>
+				</file:file>
+			</file:versions>
+			<file:contenttype>image/jpeg</file:contenttype>
+			<file:isTransformed>false</file:isTransformed>
+			<file:isLocked>false</file:isLocked>
+		</fol:file>...
+		<fol:isInBin>false</fol:isInBin>
+	</fol:foldercontentresponse>
+</fol:oorest>
+
