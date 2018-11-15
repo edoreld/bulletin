@@ -1,0 +1,161 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm 
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Javier \textsc{Martínez}
+		\par\large{Ingénieur d'études et développement}
+	}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Informations Personnelles}
+
+\begin{tabular}{rl}
+ 
+    \textsc{Addresse :}   & 54 rue Waldeck Rousseau, Vitry-sur-Seine, France \\
+    \textsc{Téléphone :}     & +33 7 69 97 78 71\\
+    \textsc{email:}     & \href{mailto:javier.m.lago@gmail.com}{javier.m.lago@gmail.com}
+\end{tabular}
+
+%Section: Work Experience at the top
+\section{Expérience Professionnelle}
+\begin{tabular}{r|p{11cm}}
+ \emph{À aujourd'hui} & Développeur full stack chez \textsc{Natixis}, Paris \\\textsc{SEP 2017}&\footnotesize{-	Mise en oeuvre l'outil de reporting JasperReports sur serveur Java}\\\multicolumn{2}{c}{} \\
+ \textsc{Sep 2016} & Développeur full stack chez \textsc{Vitalliance}, Paris \\\textsc{Sep 2017} &\footnotesize{-	Développement d'application mobile pour iOS et Android avec PhoneGap.
+
+-	Programmation en langage HTML, CSS et JavaScript.
+
+-	Création de processus d'intégration continue avec Jenkins.
+
+-	Compilation et la publication de l'application mobile en continue.
+
+-	Outil de méthodologie Kanban pour la hiérarchisation de tâches.}\\\multicolumn{2}{c}{} \\
+\textsc{Sep 2015} & Administrateur de systèmes chez \textsc{KarmicSoft}, Paris \\\textsc{Sep 2016} &\footnotesize{-	Installation et configuration du serveur Windows
+
+-	Développement de la plateforme de prototypage rapide MyDraft.}\\\multicolumn{2}{c}{} \\ 
+\textsc{Sep 2015} & Développeur iOS  chez \textsc{Mobile Itineraries}, Paris \\\textsc{Sep 2016} & \footnotesize{-	Développement d'applications pour la plateforme iOS.
+
+-	Programmation en langage Objective-C.}\\\multicolumn{2}{c}{} \\ 
+\textsc{2012} & Administrateur de systèmes chez \textsc{Promethea-FTB}, Paris \\\textsc{2015} & \footnotesize{-	Installation et configuration du serveur Mac. 
+
+-	Mise en place des solutions de backup automatisé.
+
+-	Création un site web
+
+-	Rédaction de la page wiki.
+
+}
+
+\end{tabular}
+
+%Section: Education
+\section{Formation}
+\begin{tabular}{rl}	
+ \textsc{Septembre} 2018 & Master 1 \textsc{MIAGE}, à \textbf{Université Paris-Dauphine}, Paris\\
+\\&\\
+ \textsc{Septembre} 2019 & Master 2 \textsc{MIAGE} (en cours), à \textbf{Université Paris-Dauphine}, Paris\\
+\\&\\
+\end{tabular}
+
+%Section: Certificates
+
+\section{Certificats}
+\begin{tabular}{rl}
+\textsc{Juin 2018}& TOEIC: 990/990	
+\end{tabular}
+
+
+%Section: Languages
+\section{Langues}
+\begin{tabular}{rl}
+\textsc{Espagnol:}&Langue maternelle\\
+\textsc{Anglais:}&Courant\\
+\textsc{Français:}&Courant\\
+\textsc{Italien:}&Moyen\\
+\textsc{Allemand:}&Débutant
+\end{tabular}
+
+%Section: compétences informatiques
+\section{Compétences Informatiques}
+\begin{tabular}{rl}
+ Connaissances de base:& \textsc{python}, Systèmes distribués, Analyse de données, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
+Connaissances intérmédiaires :& \textsc{Linux}, Excel, \textsc{CSS}, Agilité, Word, PowerPoint, \textsc{PHP}, \textsc{Jenkins} \\
+Connaissances spécialisées :& \textsc{Java}, \textsc{JavaScript}, \textsc{HTML} \\
+\end{tabular}
+
+\section{Hobbies}
+Technologie, Open-Source, Programming\\
+Processus de prise de décisions, comportement humain\\
+Piano, Cuisine, Sport, Randonnée
+
+%\hypertarget{gmat}{\textsc{Gmat}\setmainfont{LMRoman10 Regular}\textregistered\setmainfont[SmallCapsFont=Fontin-SmallCaps]{Fontin-Regular}}
+
+%\XeTeXpdffile ''GMAT.pdf'' page 1 scaled 800
+
+\end{document}
