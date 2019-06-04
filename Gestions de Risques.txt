@@ -1,0 +1,135 @@
+Gestions de Risques
+
+# Infrastructure actuelle
+
+1. Serveurs
+* Baie serveur
+  - Onduleurs récents et puissants
+  - 2 baies: espace disponible pour serveur rackables
+* Deux serveurs « principaux »
+  - Mal configurés (version Windows, gestion de la mémoire)
+  - Mises à jour Microsoft + antivirus non planifiées
+* Deux « serveurs secondaires »
+  - Postes de travail Lenovo / Windows XP
+  - Hors domaine
+  - Applicatifs métiers (isofdocs, gesbanque) + utilitaires Windows (sessions TSE,
+sécurité)
+2. Réseau
+* Liens inter sites via VPN Cisco (Connexion TSE / boitiers Axel)
+* Lien SDSL 8Mo (internet, téléphonie, liaison inter site)
+3. Postes de travail
+* Anciens, à remplacer (Boulogne)
+* Boitiers clients légers Axel (Courbevoie) fonctionnement non
+opérationnel
+4. Sécurité
+* Accès au serveurs
+  - Les fournisseurs de logiciels métiers ont un accès TSE administrateur sur le
+serveur d’applications.
+  - De nombreux logiciels de prise en main à distance (un par fournisseur de
+logiciel)
+* Sauvegardes
+  - En partie sur disque externe
+  - En partie sur serveur de stockage (NAS)
+5. Impression
+* Nombreuses imprimantes personnelles en fin de vie
+* Deux imprimantes multi fonctions
+
+--- 500 words ---
+
+Risk Reminder
+
+**Facteur de risque**: ce qu'augmente la probabilité de survenance du risque
+Risque [Actif / Inactif]
+
+## Façon de gérer le risque :
+  - L'ignorer
+  - L'éviter
+  - Le réduire
+  - L'accepter
+  - Les transférer
+
+# Types de risque :
+
+## Risques sur les moyens
+
+- Risque de non opportunité
+- Risque de non aboutissement
+- Risque commercial et financier
+- Risque technologique
+
+## Risque sur les applications et les données
+- **Risque stratégique** : non opportunité, non
+aboutissement, non alignement financier ou
+commercial
+- **Fiabilité** : non qualité de l’information, corruption,
+falsification, pertes, …
+- **Non-conformité**
+- **Vol**
+
+## Risques SI
+- Alignement stratégique (combine plusieurs des thèmes
+ci-dessous)
+- Non opportunité (risque projet)
+- Non aboutissement (risque projet ou processus)
+- Commercial
+- Financier
+- Technologie(s)
+- Qualité de l’information (processus d’entreprise)
+- Protection de la donnée et de son cycle de vie
+- Protection des traitements et de leur conformité
+- Réglementations applicables
+- Protection juridique
+
+Loi Sarbes - Oxley ? -> financial reporting
+
+1. Prendre d’abord conscience de l’ensemble des menaces auxquelles est exposé le SI et essayer dans la mesure du possible de les contrôler.
+  - Référentiel : ISO 27002
+
+## Infrastructure ##
+
+1. Serveurs
+* Baie serveur
+  - Onduleurs récents et puissants
+  - 2 baies: espace disponible pour serveur rackables
+* Deux serveurs « principaux »
+  - Mal configurés (version Windows, gestion de la mémoire)
+  - Mises à jour Microsoft + antivirus non planifiées
+* Deux « serveurs secondaires »
+  - Postes de travail Lenovo / Windows XP
+  - Hors domaine
+  - Applicatifs métiers (isofdocs, gesbanque) + utilitaires Windows (sessions TSE, sécurité)
+2. Réseau
+* Liens inter sites via VPN Cisco (Connexion TSE / boitiers Axel)
+* Lien SDSL 8Mo (internet, téléphonie, liaison inter site)
+3. Postes de travail
+* Anciens, à remplacer (Boulogne)
+* Boitiers clients légers Axel (Courbevoie) fonctionnement non opérationnel
+4. Sécurité
+* Accès au serveurs
+  - Les fournisseurs de logiciels métiers ont un accès TSE administrateur sur le
+serveur d’applications.
+  - De nombreux logiciels de prise en main à distance (un par fournisseur de
+logiciel)
+* Sauvegardes
+  - En partie sur disque externe
+  - En partie sur serveur de stockage (NAS)
+5. Impression
+* Nombreuses imprimantes personnelles en fin de vie
+* Deux imprimantes multi fonctions
+
+## Objectives ##
+
+- En structurant des services complémentaires : gardiennage –
+vidéosurveillance
+- Par la conquête de nouveaux clients en doublant sa force de
+vente
+
+  Liste des risques
+
+
+
+| ID | Description | Probabilité | Impact | Probabilité | Actions préventives | Actions Correctives |
+|----|-------------|--------|--------|-------------|---------------------|---------------------|
+| R1   |             |        |        |             |                     |                     |
+|    |             |        |        |             |                     |                     |
+|    |             |        |        |             |                     |                     |
